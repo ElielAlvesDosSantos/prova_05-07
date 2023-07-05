@@ -1,0 +1,22 @@
+<h1>Lista</h1>
+<hr>
+
+<table>
+    <thead>
+        <th>Código</th>
+        <th>Nome</th>
+        <th>idade</th>
+        <th>email</th>
+    </thead>
+{{#each valores}}
+    <tbody>
+        <tr>
+            <td>{{this.id}}</td>
+            <td>{{this.nome}}</td>
+            <td>{{this.idade}}</td>
+            <td>{{this.email}}</td>
+        </tr>
+    </tbody>
+{{/each}}
+</table>
+<hr>
